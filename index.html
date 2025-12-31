@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SSS Products | Sri Lankan Authentic Cashew</title>
-    <meta name="description" content="SSS Products sells Sri Lankan authentic cashew. Fresh, premium quality, and carefully packed." />
+    <meta
+      name="description"
+      content="SSS Products — Sri Lankan authentic cashew. Hand-picked, roasted, and seasoned with love."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -23,23 +26,21 @@
         <nav class="nav">
           <a href="#about">About</a>
           <a href="#offerings">Products</a>
+          <a href="#contact">Contact</a>
         </nav>
       </div>
     </header>
 
-    <!-- Hero image -->
+    <!-- Hero -->
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-left">
           <h2>Premium Sri Lankan Cashew</h2>
-          <p>
-            Carefully selected, freshly packed, and delivered with quality you can trust.
-          </p>
+          <p>Carefully selected, freshly packed, and delivered with quality you can trust.</p>
 
-          <!-- Optional: add your WhatsApp / phone later -->
           <div class="hero-actions">
             <a class="btn primary" href="#offerings">View Products</a>
-            <a class="btn ghost" href="mailto:sssproducts@example.com">Email Us</a>
+            <a class="btn ghost" href="tel:0712584523">Call 0712584523</a>
           </div>
 
           <div class="badges">
@@ -50,11 +51,7 @@
         </div>
 
         <div class="hero-right">
-          <img
-            class="hero-image"
-            src="assets/cashew_1.jpg"
-            alt="Sri Lankan cashew nuts"
-          />
+          <img class="hero-image" src="assets/cashew_1.jpg" alt="Sri Lankan cashew nuts" />
         </div>
       </div>
     </section>
@@ -63,33 +60,39 @@
     <section id="about" class="section">
       <div class="container">
         <h3>About Us</h3>
+
         <p class="lead">
-          SSS Products is committed to bringing you authentic Sri Lankan cashew with premium quality.
-          We focus on freshness, careful packing, and a consistently great taste.
+          At SSS Products we serve the soul of Sri Lanka in every cashew. Hand-picked from lush local groves,
+          our nuts are roasted and seasoned with love — from timeless family recipes to bold modern flavors.
+          Sustainably sourced and crafted with care, our cashews are pure, flavorful, and unforgettable.
+        </p>
+
+        <p class="lead">
+          Snack, share, or gift — it’s Sri Lankan goodness, perfected.
         </p>
 
         <div class="about-cards">
           <div class="card">
-            <h4>Quality First</h4>
-            <p>We select and pack cashew with attention to taste, crunch, and freshness.</p>
+            <h4>Hand-Picked & Local</h4>
+            <p>Sourced from Sri Lankan groves and selected for premium taste and crunch.</p>
           </div>
           <div class="card">
-            <h4>Authentic Sri Lankan</h4>
-            <p>Real Sri Lankan cashew—ideal for snacks, gifts, and family use.</p>
+            <h4>Roasted with Care</h4>
+            <p>Slow-roasted and seasoned to bring out rich, buttery flavor in every bite.</p>
           </div>
           <div class="card">
-            <h4>Reliable Service</h4>
-            <p>Clear pricing, careful packing, and delivery options you can depend on.</p>
+            <h4>Perfect for Gifting</h4>
+            <p>Ideal to snack, share, or gift — a true taste of Sri Lanka.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services (left) + Products Table (right) -->
+    <!-- Services (left) + Products (right) -->
     <section id="offerings" class="section section-alt">
       <div class="container">
         <h3>Our Offerings</h3>
-        <p class="muted">Services on the left, product prices on the right.</p>
+        <p class="muted">Services on the left, products on the right.</p>
 
         <div class="two-col">
           <!-- Left: Services -->
@@ -108,55 +111,59 @@
             </div>
           </aside>
 
-          <!-- Right: Products & Prices -->
+          <!-- Right: Products (horizontal cards) -->
           <div class="panel">
-            <h4>Products & Prices</h4>
+            <h4>Products</h4>
+            <p class="muted small-text">Scroll horizontally to view all products.</p>
 
-            <div class="table-wrap" role="region" aria-label="Products price table" tabindex="0">
-              <table class="price-table">
-                <thead>
-                  <tr>
-                    <th>Product</th>
-                    <th>Pack Size</th>
-                    <th class="right">Price (LKR)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Cashew (Classic)</td>
-                    <td>250g</td>
-                    <td class="right">2,500</td>
-                  </tr>
-                  <tr>
-                    <td>Cashew (Classic)</td>
-                    <td>500g</td>
-                    <td class="right">4,800</td>
-                  </tr>
-                  <tr>
-                    <td>Cashew (Classic)</td>
-                    <td>1kg</td>
-                    <td class="right">9,200</td>
-                  </tr>
-                  <tr>
-                    <td>Roasted & Salted Cashew</td>
-                    <td>250g</td>
-                    <td class="right">2,700</td>
-                  </tr>
-                  <tr>
-                    <td>Chilli Cashew</td>
-                    <td>250g</td>
-                    <td class="right">2,900</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="product-row" aria-label="Products list">
+              <article class="product-card">
+                <img src="assets/products/devilled_cashew.jpeg" alt="Devilled Cashew" />
+                <h5>Devilled Cashew</h5>
+                <p class="product-desc">
+                  Bold, fiery, and full of character — our Devilled Cashews are tossed in a spicy blend of
+                  Sri Lankan chili, aromatic spices, and a hint of sweetness. Each crunchy bite delivers a
+                  thrilling kick that keeps you reaching for more.
+                </p>
+              </article>
+
+              <article class="product-card">
+                <img src="assets/products/oven_baked_full_cashew.jpeg" alt="Oven-Baked Full Cashew" />
+                <h5>Oven-Baked Full Cashew</h5>
+                <p class="product-desc">
+                  Pure, simple, and naturally delicious — these oven-baked whole cashews are roasted slowly
+                  to golden perfection. Lightly crisp on the outside, rich and buttery on the inside — this
+                  is cashew in its most wholesome, irresistible form.
+                </p>
+              </article>
+
+              <article class="product-card">
+                <img src="assets/products/garlic_salt_cashew.jpeg" alt="Garlic & Salt Cashew" />
+                <h5>Garlic &amp; Salt Cashew</h5>
+                <p class="product-desc">
+                  Savory goodness meets rich crunch. Infused with roasted garlic and just the right sprinkle
+                  of sea salt, this classic favorite balances bold flavor with the natural creaminess of
+                  premium Sri Lankan cashews.
+                </p>
+              </article>
+
+              <article class="product-card">
+                <img src="assets/products/burnt_cashew.jpeg" alt="Burnt Cashew" />
+                <h5>Burnt Cashew</h5>
+                <p class="product-desc">
+                  For the flavor adventurer — our Burnt Cashews offer a uniquely smoky, caramelized twist.
+                  Deep roasted to a bold finish, they deliver an intense aroma and rich, toasted depth that’s
+                  addictive in every handful.
+                </p>
+              </article>
             </div>
 
-            <div class="cta-strip">
+            <div id="contact" class="cta-strip">
               <div>
                 <strong>Want to order?</strong>
-                <span class="muted">Replace the email/phone with your real contact.</span>
+                <span class="muted">Call us on <span class="phone">0712584523</span></span>
               </div>
-              <a class="btn small primary" href="mailto:sssproducts@example.com">Contact</a>
+              <a class="btn small primary" href="tel:0712584523">Call Now</a>
             </div>
           </div>
         </div>
