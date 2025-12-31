@@ -191,7 +191,7 @@ h3{
 .two-col{
   margin-top: 14px;
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-columns: 1fr; /* stack vertically */
   gap: 12px;
   align-items: start;
 }
