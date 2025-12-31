@@ -190,10 +190,10 @@ h3{
 
 .two-col{
   margin-top: 14px;
-  display: grid;
-  grid-template-columns: 1fr; /* stack vertically */
+  display: flex;          /* <-- force stacking */
+  flex-direction: column; /* <-- products then services below */
   gap: 12px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .panel{
