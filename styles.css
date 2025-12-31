@@ -339,6 +339,5 @@ h3{
   .hero-inner{ grid-template-columns: 1fr; }
   .hero-image{ height: 280px; }
   .about-cards{ grid-template-columns: 1fr; }
-  .two-col{ grid-template-columns: 1fr; }
   .brand{ min-width: unset; }
 }
